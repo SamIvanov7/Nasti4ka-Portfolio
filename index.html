@@ -232,18 +232,16 @@
   <!-- ======= Resume Section ======= -->
   <section id="resume" class="resume">
     <div class="container">
-
       <div class="section-title">
-        <h2>Resume</h2>
-        <p>Check My Resume</p>
+        <h2 id="resume-title">Resume</h2>
+        <p id="resume-description">Check My Resume</p>
       </div>
-
       <div class="row">
         <div class="col-lg-6">
-          <h3 class="resume-title">Summary</h3>
-          <div class="resume-item pb-0">
+          <h3 class="resume-title" id="summary-title">Summary</h3>
+          <div class="resume-item pb-0" id="summary-item">
             <h4>Anastasiia Dobrovolska</h4>
-            <p><em>Dedicated lawyer with a solid background in legal studies and practical experience. Highly skilled in analytical thinking, effective communication, and self-discipline. Currently based in Leipzig, Germany, and proficient in multiple languages.</em></p>
+            <p id="summary-description"><em>Dedicated lawyer with a solid background in legal studies and practical experience. Highly skilled in analytical thinking, effective communication, and self-discipline. Currently based in Leipzig, Germany, and proficient in multiple languages.</em></p>
             <p>
             <ul>
               <li>Obere Eichstädtstraße 17, 04299 Leipzig, Germany</li>
@@ -253,28 +251,28 @@
             </p>
           </div>
 
-          <h3 class="resume-title">Education</h3>
-          <div class="resume-item">
+          <h3 class="resume-title" id="education-title">Education</h3>
+          <div class="resume-item" id="education-item-1">
             <h4>Bachelor of Law</h4>
             <h5>2018 - 2022</h5>
             <p><em>National Transport University, Kyiv, Ukraine</em></p>
-            <p>Completed a comprehensive program in legal studies with a focus on commercial law and legal procedures.</p>
+            <p id="education-description-1">Completed a comprehensive program in legal studies with a focus on commercial law and legal procedures.</p>
           </div>
-          <div class="resume-item">
+          <div class="resume-item" id="education-item-2">
             <h4>Junior Specialist in Commercial Activities</h4>
             <h5>2015 - 2018</h5>
             <p><em>College of Information Systems and Technologies, Kyiv National Economic University, Kyiv, Ukraine</em></p>
-            <p>Focused on commercial activities and the implementation of information systems in business processes.</p>
+            <p id="education-description-2">Focused on commercial activities and the implementation of information systems in business processes.</p>
           </div>
         </div>
         <div class="col-lg-6">
-          <h3 class="resume-title">Professional Experience</h3>
-          <div class="resume-item">
+          <h3 class="resume-title" id="experience-title">Professional Experience</h3>
+          <div class="resume-item" id="experience-item-1">
             <h4>Legal Intern</h4>
             <h5>2021 - 2022</h5>
             <p><em>Law Firm "VAK & PARTNER", Jahotyn, Ukraine</em></p>
             <p>
-            <ul>
+            <ul id="experience-description-1">
               <li>Assisted in legal research and the preparation of legal documents.</li>
               <li>Supported attorneys in court proceedings and client meetings.</li>
               <li>Conducted case analysis and provided summaries for senior lawyers.</li>
@@ -282,12 +280,12 @@
             </ul>
             </p>
           </div>
-          <div class="resume-item">
-            <h4>Intern</h4>
+          <div class="resume-item" id="experience-item-2">
+            <h4>Intern</h5>
             <h5>2018</h5>
             <p><em>"Phytopharm", Kyiv, Ukraine</em></p>
             <p>
-            <ul>
+            <ul id="experience-description-2">
               <li>Worked on commercial legal matters within the pharmaceutical industry.</li>
               <li>Assisted in drafting contracts and legal correspondence.</li>
               <li>Conducted market research and analysis for legal compliance.</li>
@@ -297,7 +295,6 @@
           </div>
         </div>
       </div>
-
     </div>
   </section><!-- End Resume Section -->
 
@@ -522,7 +519,27 @@
         degreeLabel: "Degree:",
         emailLabel: "Email:",
         personalitiesLabel: "16Personalities:",
-        aboutDetail: "I completed my Bachelor's degree in Law from the National Transport University in Kyiv and have experience working as an intern at various legal firms in Ukraine. My interests include sports like volleyball and basketball, traveling, and hiking. I am proficient in MS Office and communication tools like Skype and Zoom."
+        aboutDetail: "I completed my Bachelor's degree in Law from the National Transport University in Kyiv and have experience working as an intern at various legal firms in Ukraine. My interests include sports like volleyball and basketball, traveling, and hiking. I am proficient in MS Office and communication tools like Skype and Zoom.",
+        resumeTitle: "Resume",
+        resumeDescription: "Check My Resume",
+        summaryTitle: "Summary",
+        summaryDescription: "Dedicated lawyer with a solid background in legal studies and practical experience. Highly skilled in analytical thinking, effective communication, and self-discipline. Currently based in Leipzig, Germany, and proficient in multiple languages.",
+        educationTitle: "Education",
+        educationDescription1: "Completed a comprehensive program in legal studies with a focus on commercial law and legal procedures.",
+        educationDescription2: "Focused on commercial activities and the implementation of information systems in business processes.",
+        experienceTitle: "Professional Experience",
+        experienceDescription1: [
+          "Assisted in legal research and the preparation of legal documents.",
+          "Supported attorneys in court proceedings and client meetings.",
+          "Conducted case analysis and provided summaries for senior lawyers.",
+          "Participated in the development of legal strategies and client consultations."
+        ],
+        experienceDescription2: [
+          "Worked on commercial legal matters within the pharmaceutical industry.",
+          "Assisted in drafting contracts and legal correspondence.",
+          "Conducted market research and analysis for legal compliance.",
+          "Supported the legal team in various administrative tasks."
+        ]
       },
       de: {
         headerName: "Anastasiia Dobrovolska",
@@ -543,8 +560,28 @@
         ageLabel: "Alter:",
         degreeLabel: "Abschluss:",
         emailLabel: "E-Mail:",
-        personalitiesLabel: "16Personalities:",
-        aboutDetail: "Ich habe meinen Bachelor-Abschluss in Rechtswissenschaften an der Nationalen Transportuniversität in Kiew abgeschlossen und habe Erfahrung als Praktikant bei verschiedenen Anwaltskanzleien in der Ukraine gesammelt. Meine Interessen umfassen Sportarten wie Volleyball und Basketball, Reisen und Wandern. Ich bin versiert im Umgang mit MS Office und Kommunikationstools wie Skype und Zoom."
+        personalitiesLabel: "16Persönlichkeiten:",
+        aboutDetail: "Ich habe meinen Bachelor-Abschluss in Rechtswissenschaften an der Nationalen Transportuniversität in Kiew abgeschlossen und habe Erfahrung als Praktikant bei verschiedenen Anwaltskanzleien in der Ukraine gesammelt. Meine Interessen umfassen Sportarten wie Volleyball und Basketball, Reisen und Wandern. Ich bin versiert im Umgang mit MS Office und Kommunikationstools wie Skype und Zoom.",
+        resumeTitle: "Lebenslauf",
+        resumeDescription: "Sehen Sie sich meinen Lebenslauf an",
+        summaryTitle: "Zusammenfassung",
+        summaryDescription: "Engagierte Anwältin mit solider Ausbildung in Rechtswissenschaften und praktischer Erfahrung. Hochqualifiziert im analytischen Denken, in der effektiven Kommunikation und in der Selbstdisziplin. Derzeit in Leipzig, Deutschland, ansässig und in mehreren Sprachen versiert.",
+        educationTitle: "Bildung",
+        educationDescription1: "Absolvierte ein umfassendes Programm in Rechtswissenschaften mit Schwerpunkt auf Handelsrecht und Rechtsverfahren.",
+        educationDescription2: "Fokussiert auf kommerzielle Tätigkeiten und die Implementierung von Informationssystemen in Geschäftsprozesse.",
+        experienceTitle: "Berufserfahrung",
+        experienceDescription1: [
+          "Unterstützung bei der juristischen Recherche und der Vorbereitung von Rechtsdokumenten.",
+          "Unterstützung von Anwälten bei Gerichtsverfahren und Mandantengesprächen.",
+          "Durchführung von Fallanalysen und Erstellung von Zusammenfassungen für erfahrene Anwälte.",
+          "Mitwirkung an der Entwicklung von Rechtsstrategien und Mandantenberatungen."
+        ],
+        experienceDescription2: [
+          "Arbeit an kommerziellen Rechtsangelegenheiten in der Pharmaindustrie.",
+          "Unterstützung bei der Erstellung von Verträgen und juristischer Korrespondenz.",
+          "Durchführung von Marktforschung und Analyse zur rechtlichen Einhaltung.",
+          "Unterstützung des Rechtsteams bei verschiedenen administrativen Aufgaben."
+        ]
       }
     };
 
@@ -569,6 +606,21 @@
       document.getElementById('email-label').innerHTML = translations[lang].emailLabel;
       document.getElementById('16personalities-label').innerHTML = translations[lang].personalitiesLabel;
       document.getElementById('about-detail').innerHTML = translations[lang].aboutDetail;
+
+      document.getElementById('resume-title').innerHTML = translations[lang].resumeTitle;
+      document.getElementById('resume-description').innerHTML = translations[lang].resumeDescription;
+      document.getElementById('summary-title').innerHTML = translations[lang].summaryTitle;
+      document.getElementById('summary-description').innerHTML = translations[lang].summaryDescription;
+      document.getElementById('education-title').innerHTML = translations[lang].educationTitle;
+      document.getElementById('education-description-1').innerHTML = translations[lang].educationDescription1;
+      document.getElementById('education-description-2').innerHTML = translations[lang].educationDescription2;
+      document.getElementById('experience-title').innerHTML = translations[lang].experienceTitle;
+
+      const experienceDesc1 = translations[lang].experienceDescription1;
+      document.getElementById('experience-description-1').innerHTML = experienceDesc1.map(item => `<li>${item}</li>`).join('');
+
+      const experienceDesc2 = translations[lang].experienceDescription2;
+      document.getElementById('experience-description-2').innerHTML = experienceDesc2.map(item => `<li>${item}</li>`).join('');
     }
   </script>
 	
